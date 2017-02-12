@@ -83,6 +83,6 @@ plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
 plt.show()
-          
+
 #Evaluate Keras model
 score = model.evaluate(X_test, Y_test, verbose=0)
